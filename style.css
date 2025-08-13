@@ -1,0 +1,67 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 95vh;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: lighter;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #296fd1;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1e5aa0;
+  }
+  &:active {
+    background-color: #1a4b80;
+  }
+}
+
+.tip-presets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.tip-button {
+  padding: 20px 30px;
+  width: calc(26.7vw - 27px);
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.percentage {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.money {
+  font-size: 1rem;
+}
+.custom {
+  width: 80vw;
+  padding: 20px 0px;
+}
